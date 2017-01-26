@@ -1,0 +1,7 @@
+{
+  "realm": "sso-app-sdemo",
+  "auth-server-url": "http://rhel7jboss01:8180/auth",
+  "ssl-required": "external",
+  "resource": "web-sample-02",
+  "public-client": true
+}

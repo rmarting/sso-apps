@@ -1,0 +1,21 @@
+<keycloak-saml-adapter>
+    <SP entityID="web-sample-01-saml"
+        sslPolicy="EXTERNAL"
+        logoutPage="/index.jsp">
+        <IDP entityID="idp">
+            <SingleSignOnService signRequest="false"
+                                 validateResponseSignature="false"
+                                 validateAssertionSignature="false"
+                                 requestBinding="POST"
+                                 bindingUrl="https://192.168.122.113:8593/auth/realms/bbva-iaas-underlay/protocol/saml"/>
+            <SingleLogoutService signRequest="false"
+                                 signResponse="false"
+                                 validateRequestSignature="false"
+                                 validateResponseSignature="false"
+                                 requestBinding="POST"
+                                 responseBinding="POST"
+                                 postBindingUrl="https://192.168.122.113:8593/auth/realms/bbva-iaas-underlay/protocol/saml"
+                                 redirectBindingUrl="https://192.168.122.113:8593/auth/realms/bbva-iaas-underlay/protocol/saml"/>
+        </IDP>
+    </SP>
+</keycloak-saml-adapter>

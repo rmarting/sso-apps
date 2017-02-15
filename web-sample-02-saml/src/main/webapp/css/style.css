@@ -1,0 +1,12 @@
+body {
+    font-family: verdana;
+    font-style: bold;	
+}
+
+h1 {
+	border-color: red;
+	background-color: #00ffee;
+	font-family: arial verdana;
+	font-size: xx-large;
+	font-color: red;
+}

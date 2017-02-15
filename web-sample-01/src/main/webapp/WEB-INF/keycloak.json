@@ -1,6 +1,6 @@
 {
-  "realm": "sso-app-sdemo",
-  "auth-server-url": "http://rhel7jboss01:8080/auth",
+  "realm": "bbva-iaas-underlay",
+  "auth-server-url": "http://192.168.122.113:8230/auth",
   "ssl-required": "external",
   "resource": "web-sample-01",
   "public-client": true
